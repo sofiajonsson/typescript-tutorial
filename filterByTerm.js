@@ -9,4 +9,4 @@ function filterByTerm(input, searchTerm) {
         return arrayElement.url.match(regex);
     });
 }
-filterByTerm("input string", "java");
+filterByTerm([{ url: "string1" }, { url: "string2" }, { url: "string3" }], "java");
